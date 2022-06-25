@@ -1,0 +1,34 @@
+{
+  "name": "fluent-iter",
+  "version": "1.0.0",
+  "description": "Fluent interfaces for iterables and async iterables",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericsuh/fluent-iter.git"
+  },
+  "keywords": [
+    "iterable",
+    "fluent"
+  ],
+  "files": [
+    "/dist/**/*"
+  ],
+  "author": "Eric Suh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericsuh/fluent-iter/issues"
+  },
+  "homepage": "https://github.com/ericsuh/fluent-iter",
+  "devDependencies": {
+    "@types/jest": "^28.1.3",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}
